@@ -2,8 +2,7 @@
 // Dims all the bright colours for darker colours, replaces event and mention colours as well.
 { 
     
-}
-.floating-panel-header, .floating-panel-bar {
+}.floating-panel-header, .floating-panel-bar {
     height: 36px;
     color: rgb(0,0,0);
     font-size: 13px;
@@ -16,8 +15,11 @@
     background-image: linear-gradient(rgb(42,40,40), rgb(63,61,61));
     background-repeat: repeat-x;
 }
-.chat .messages {
-    color: #FFFFFF;rgbrgb(0,0,0)
+.messages { // background colour for chat
+    background-color: #2f2f2f   
+}
+.chat .messages { // chat font
+    color: #FFFFFF;rgb(0,0,0)
     position: absolute;
     top: 0;
     bottom: 38px;
@@ -26,7 +28,7 @@
     overflow-y: auto;
     overflow-x: hidden;
 }
-.chat .message:nth-child(odd) {
+.chat .message:nth-child(odd) { // every other chat message colour
     background-color: #2f2f2f;
 }
 .chat .message {
@@ -36,7 +38,7 @@
     line-height: 18px;
     word-wrap: break-word;
     background: #262525;
-    border-bottom: 1px solid #000000;
+    border-bottom: 0px solid #000000;
 }
 .chat .message.mention {
     background-color: #860b08;
