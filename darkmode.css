@@ -15,11 +15,9 @@
     background-image: linear-gradient(rgb(42,40,40), rgb(63,61,61));
     background-repeat: repeat-x;
 }
-// background colour for chat
 .messages { 
     background-color: #2f2f2f   
 }
-// chat font
 .chat .messages { 
     color: #FFFFFF;rgb(0,0,0)
     position: absolute;
@@ -30,7 +28,6 @@
     overflow-y: auto;
     overflow-x: hidden;
 }
-// every other chat message colour
 .chat .message:nth-child(odd) { 
     background-color: #2f2f2f;
 }
