@@ -1,5 +1,5 @@
-// a Dark mode chat bar for turntable.fm.
-// Dims all the bright colours for darker colours, replaces event and mention colours as well.
+// a dark mode chat bar for turntable.fm.
+// dims all the bright colours for darker colours, replaces event and mention colours as well.
 { 
     
 }.floating-panel-header, .floating-panel-bar {
@@ -15,10 +15,12 @@
     background-image: linear-gradient(rgb(42,40,40), rgb(63,61,61));
     background-repeat: repeat-x;
 }
-.messages { // background colour for chat
+// background colour for chat
+.messages { 
     background-color: #2f2f2f   
 }
-.chat .messages { // chat font
+// chat font
+.chat .messages { 
     color: #FFFFFF;rgb(0,0,0)
     position: absolute;
     top: 0;
@@ -28,7 +30,8 @@
     overflow-y: auto;
     overflow-x: hidden;
 }
-.chat .message:nth-child(odd) { // every other chat message colour
+// every other chat message colour
+.chat .message:nth-child(odd) { 
     background-color: #2f2f2f;
 }
 .chat .message {
