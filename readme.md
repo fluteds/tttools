@@ -9,6 +9,18 @@
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/fluteds/tttools/graphs/commit-activity) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
+### **🔦 dark mode**
+
+enables a darkmode for the chat bar. 
+
+**install**
+
+use an automatic css enabler and paste this 
+
+`@import url("https://raw.githubusercontent.com/fluteds/tttools/main/darkmode.css");` 
+
+or the [raw file](https://raw.githubusercontent.com/fluteds/tttools/main/darkmode.css') in or manually enable the css on click via a bookmark or by your method of choice. 
+
 ### **🛎️ plug.dj mention**
 
 replaces turntables mention noise with the mention noise from plug.dj.
@@ -21,10 +33,3 @@ for **manual enabling** create a new bookmark with the following content
 
 for **automatic enabling** use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and copy the [raw file contents](https://raw.githubusercontent.com/fluteds/tttools/main/plugmention.js) into a new script.
 
-### **🔦 dark mode**
-
-enables a darkmode for the chat bar. 
-
-**install**
-
-use an automatic css enabler and paste the [raw file](https://raw.githubusercontent.com/fluteds/tttools/main/darkmode.css') in or manually enable the css on click via a bookmark or by your method of choice. 
