@@ -1,49 +1,168 @@
 // a dark mode chat bar for turntable.fm.
 // dims all the bright colours for darker colours, replaces event and mention colours as well.
-{ 
-    
-}.floating-panel-header, .floating-panel-bar {
-    height: 36px;
-    color: rgb(0,0,0);
-    font-size: 13px;
-    font-weight: bold;
-    text-shadow: rgb(255 255 255) 0px 1px 0px;
-    text-align: center;
-    border-top: 0px solid rgb(0,0,0);
-    border-bottom: 0px solid rgb(0,0,0);
-    background-color: rgb(0,0,0);
-    background-image: linear-gradient(rgb(42,40,40), rgb(63,61,61));
-    background-repeat: repeat-x;
+
+{}
+.floating-panel-header,
+.floating-panel-bar {
+        height: 36px;
+        color: rgb(0, 0, 0);
+        font-size: 13px;
+        font-weight: bold;
+        text-shadow: rgb(255 255 255) 0px 1px 0px;
+        text-align: center;
+        border-top: 0px solid rgb(0, 0, 0);
+        border-bottom: 0px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        background-image: linear-gradient(rgb(42, 40, 40), rgb(63, 61, 61));
+        background-repeat: repeat-x;
+        border-top: solid 0px #262525;
+        -webkit-box-shadow: 0 -1px 0 0 #262525;
+        -moz-box-shadow: 0 -1px 0 0 #262525;
 }
-.messages { 
-    background-color: #2f2f2f   
+
+.messages {
+        background-color: #2f2f2f
 }
-.chat .messages { 
-    color: #FFFFFF;rgb(0,0,0)
-    position: absolute;
-    top: 0;
-    bottom: 38px;
-    width: 100%;
-    overflow: auto;
-    overflow-y: auto;
-    overflow-x: hidden;
+
+.chat .messages {
+        color: #FFFFFF;
+        position: absolute;
+        top: 0;
+        bottom: 38px;
+        width: 100%;
+        overflow: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
 }
-.chat .message:nth-child(odd) { 
-    background-color: #2f2f2f;
+
+.chat .message:nth-child(odd) {
+        background-color: #2f2f2f;
 }
+
 .chat .message {
-    position: relative;
-    padding: 6px 10px;
-    font-size: 12px;
-    line-height: 18px;
-    word-wrap: break-word;
-    background: #262525;
-    border-bottom: 0px solid #000000;
+        position: relative;
+        padding: 6px 10px;
+        font-size: 12px;
+        line-height: 18px;
+        word-wrap: break-word;
+        background: #262525;
+        border-bottom: 0px solid #000000;
 }
+
 .chat .message.mention {
-    background-color: #860b08;
+        background-color: #6e0503;
 }
+
 .chat .message.action {
-    color: #c00000;
-    background-color:#dbe47f
+        color: #c00000;
+        background-color: #e4c864
+}
+
+.chatsound-container {
+        background: #262525;
+}
+
+#chat-input {
+        background: #232121;
+        color: #ffffff
+}
+
+.message-input {
+        font-weight: bold background: #232121;
+        border-radius: 14px;
+        -webkit-box-shadow: inset 0 0 0 1px #424141, 0 1px 0 0 #424141;
+        -moz-box-shadow: inset 0 0 0 1px #424141, 0 1px 0 0 #424141;
+        box-shadow: inset 0 0 0 1px #424141, 0 1px 0 0 #424141;
+}
+
+// queue darkmode 
+
+.song .details {
+        color: #ffffff
+}
+
+.song.nth-child-even {
+    background: #white
+}
+
+.playlist-display {
+        background: #232121;
+        color: #e4c864
+}
+
+.playlist-header {
+        color: #ffffff
+}
+
+.striped-list>*,
+.song-list>ul>* {
+        border-bottom: 1px solid #232121;
+}
+.panel-button {
+        border: 1px solid #232121;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        background: -moz-linear-gradient(top, #232121 0, #232121 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #232121), color-stop(100%, #232121));
+        background: -webkit-linear-gradient(top, #232121 0, #232121 100%);
+        background: -o-linear-gradient(top, #232121 0, #232121 100%);
+        background: -ms-linear-gradient(top, #262525 0, #232121 100%);
+        background: linear-gradient(to bottom, #232121 0, #232121 100%);
+        -moz-box-shadow: inset 0 1px #232121, 0 1px #232121;
+        -webkit-box-shadow: inset 0 1px #232121, 0 1px #232121;
+        box-shadow: inset 0 1px #232121, 0 1px #232121;
+}
+
+#queue-header {
+        background: -moz-linear-gradient(top, #262525 0, #262525 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #262525), color-stop(100%, #262525));
+        background: -webkit-linear-gradient(top, #262525 0, #262525 100%);
+        background: -o-linear-gradient(top, #262525 0, #262525 100%);
+        background: -ms-linear-gradient(top, #262525 0, #262525 100%);
+        background: linear-gradient(to bottom, #262525 0, #262525 100%);
+        border-bottom: 10px solid #262525;
+        border-top: 0px solid #262525;
+        -webkit-transition: height .3s;
+        -moz-transition: height .3s;
+        -o-transition: height .3s;
+        transition: height .3s;
+}
+
+#song-search-input {
+        display: block;
+        width: 100%;
+        height: 28px;
+        padding: 4px 25px 4px 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        line-height: 18px;
+        border: 0px solid #2d2b2b;
+        border-bottom: 0px;
+        border-top: 0px outline: 0;
+        background: #262525;
+        -webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.08), 0 1px 0 rgba(255, 255, 255, 0.50);
+        -moz-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.08), 0 1px 0 rgba(255, 255, 255, 0.50);
+        box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.08), 0 1px 0 rgba(255, 255, 255, 0.50);
+}
+
+.song .progress-bar {
+        background: #232121;
+        color: #ffffff border: 10px
+}
+
+.song .progress {
+        background-color: #e4c864
+}
+
+#song-search-input {
+        background-color: #232121;
+        color: white
+}
+
+#playlist .title,
+#playlist .details,
+#playlist .topSong.current-song .title,
+#playlist .topSong.current-song .details {
+        color: #ffffff
 }
