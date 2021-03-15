@@ -1,9 +1,10 @@
 // ==UserScript==
-// @name         Plug mentions for tt.fm
+// @name         plug.dj mentions for tt.fm
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Replace tt.fm mentions with plug.dj mentions.
-// @author       Fluted
+// @author       Fluted / fluteds
+// @icon         https://s3.amazonaws.com/assets.turntable.fm/images/index/logo.png
 // @match        https://turntable.fm/*
 // @grant        none
 // ==/UserScript==
