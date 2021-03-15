@@ -19,7 +19,7 @@ use an automatic css enabler and paste this
 
 `@import url("https://raw.githubusercontent.com/fluteds/tttools/main/darkmode.css");` 
 
-or the [raw file](https://raw.githubusercontent.com/fluteds/tttools/main/darkmode.css') in or manually enable the css on click via a bookmark or by your method of choice. 
+or the [raw file](https://raw.githubusercontent.com/fluteds/tttools/main/darkmode.css) in or manually enable the css on click via a bookmark or by your method of choice. 
 
 ### **🛎️ plug.dj mention**
 
