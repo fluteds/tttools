@@ -13,23 +13,18 @@
 
 enables a darkmode for the chat bar. 
 
-**install**
+**install dark mode**
 
-use an automatic css enabler and paste this 
-
-`@import url("https://raw.githubusercontent.com/fluteds/tttools/main/darkmode.css");` 
-
-or the [raw file](https://raw.githubusercontent.com/fluteds/tttools/main/darkmode.css) in or manually enable the css on click via a bookmark or by your method of choice. 
+copy the [raw file](https://raw.githubusercontent.com/fluteds/tttools/main/darkmode.css) into your css changer of your choice.
 
 ### **🛎️ plug.dj mention**
 
 replaces turntables mention noise with the mention noise from plug.dj.
 
-**install**
+**install plug.dj mention**
 
-for **manual enabling** create a new bookmark with the following content
+for **manual enabling** create a new bookmark with the following content:
 
-` javascript:(function(){$.getScript('https://raw.githubusercontent.com/fluteds/tttools/main/plugmention.js');})();`
+`javascript:(function(){$.getScript('https://raw.githubusercontent.com/fluteds/tttools/main/plugmention.js');})();`
 
-for **automatic enabling** use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and copy the [raw file contents](https://raw.githubusercontent.com/fluteds/tttools/main/plugmention.js) into a new script.
-
+this method allows you to click the bookmark to when you want to enable it rather than automatically enabling it on the webpage loading. for **automatic enabling** use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and copy the [raw file contents](https://raw.githubusercontent.com/fluteds/tttools/main/plugmention.js) into a new script.
