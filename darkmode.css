@@ -1,7 +1,10 @@
 // a dark mode chat bar for turntable.fm.
 // dims all the bright colours for darker colours, replaces event and mention colours as well.
 
-{}
+// chat bar
+
+        {}
+
 .floating-panel-header,
 .floating-panel-bar {
         height: 36px;
@@ -75,29 +78,52 @@
         box-shadow: inset 0 0 0 1px #424141, 0 1px 0 0 #424141;
 }
 
-// queue darkmode 
+// queue list  
 
-.song .details {
-        color: #ffffff
+.button {
+        color: #232121
 }
 
-.song.nth-child-even {
-    background: #white
+.song .details {
+        color: #86847f
 }
 
 .playlist-display {
-        background: #232121;
         color: #e4c864
+}
+
+.striped-list>:nth-child(odd):not(.separator),
+.song-list>ul>:nth-child(odd):not(.separator) {
+        background: #2f2f2f
+}
+
+.striped-list>:nth-child(odd):not(.separator):not(.no-hover):hover,
+.song-list>ul>:nth-child(odd):not(.separator):not(.no-hover):hover {
+        background: #e4c864
+}
+
+#songs {
+        background-color: #2f2f2f
+}
+
+.striped-list>:nth-child(even):not(.separator),
+.song-list>ul>:nth-child(even):not(.separator) {
+        background: #2f2f2f
+}
+
+.striped-list>:nth-child(even):not(.separator):not(.no-hover):hover,
+.song-list>ul>:nth-child(even):not(.separator):not(.no-hover):hover {
+        background: #2f2f2f
 }
 
 .playlist-header {
         color: #ffffff
 }
 
-.striped-list>*,
 .song-list>ul>* {
         border-bottom: 1px solid #232121;
 }
+
 .panel-button {
         border: 1px solid #232121;
         text-overflow: ellipsis;
@@ -161,7 +187,6 @@
 }
 
 #playlist .title,
-#playlist .details,
 #playlist .topSong.current-song .title,
 #playlist .topSong.current-song .details {
         color: #ffffff
