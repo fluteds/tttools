@@ -8,28 +8,31 @@
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/fluteds/tttools/graphs/commit-activity) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-### **🔦 dark mode**
+### **dark mode**
 
-enables a darkmode for the chat and queue bars. (wip)
+enables a darkmode for turntable.fm
 
-![image](https://user-images.githubusercontent.com/34608301/111235657-030d2780-85e9-11eb-83d1-779966c67d2f.png)
+**install dark mode**
 
-**🛠️ install dark mode**
+- copy the [raw file](https://raw.githubusercontent.com/fluteds/tttools/main/darkmode.css) into your css changer of choice.
 
-copy the [raw file](https://raw.githubusercontent.com/fluteds/tttools/main/darkmode.css) into your css changer of your choice.
+![Screenshot](https://user-images.githubusercontent.com/34608301/111393018-b6d8ea80-86af-11eb-87b3-b366abec39b2.png)
 
-### **🛎️ plug.dj mention**
+### **plug.dj mention**
 
-replaces turntables mention noise with the mention noise from plug.dj.
+a userscript that replaces turntable's mention sound with the mention sound from plug.dj incase you wanted that extra bit of nostalgia. 
 
-**🛠️ install plug.dj mentions**
+**install plug.dj mention**
 
-for **manual enabling** create a new bookmark with the following content:
+- for automatic enabling use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and copy the [raw file contents](https://raw.githubusercontent.com/fluteds/tttools/main/plugmention.js) into a new script.
+
+- for manual enabling create a new bookmark with the following code block below. this method allows you to click the bookmark to when you want to enable it rather than automatically enabling it on the webpage loading. 
 
 `javascript:(function(){$.getScript('https://raw.githubusercontent.com/fluteds/tttools/main/plugmention.js');})();`
 
-this method allows you to click the bookmark to when you want to enable it rather than automatically enabling it on the webpage loading. for **automatic enabling** use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and copy the [raw file contents](https://raw.githubusercontent.com/fluteds/tttools/main/plugmention.js) into a new script.
-
 <hr>
 
-📼 catch me on [**turntable.fm!**](https://ttstats.pinnacleofdestruction.net/user/6048fa3647b5e3001a8f7869)
+### **issues and contributing**
+
+if you have any problems, catch me on [**turntable.fm**](https://ttstats.pinnacleofdestruction.net/user/6048fa3647b5e3001a8f7869), [open an issue](https://github.com/fluteds/tttools/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) or pull request (if you're techy like that!) 
+
