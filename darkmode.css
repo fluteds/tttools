@@ -1,22 +1,25 @@
-/*
+/* 
+dark mode for turntable.fm!
+dims all the brighter colours for darker colours.
+replaces event and mention colours to join the dark side.
 
-dark mode for turntable.fm
-dims all the bright colours for darker colours
-replaces event and mention colours as well. 
+usage: 
+- copy and paste the following into a css changer.
+- reload the css changer or webpage.
+- welcome to the dark side.
 
 do not edit the following unless you know what you're doing.
+if you have any problems come find me on tt.fm/chillout_music <3 
 
-fluteds 2021
-
+© fluteds 2021 | fluted.xyz/s/6
+a copy of the MIT license can be found at /license
 */
-
 
 /* background */
  .tab-pane, #songs, .room-info-intro, .message-history, .chat .message:nth-child(even), .striped-list>:nth-child(even):not(.separator), .song-list>ul>:nth-child(even):not(.separator), .message-history>:nth-child(even):not(.separator) {
      color: #eaeaea !important;
      background: #3a3a3a !important;
 }
-/* background */
  .room-info-wrap, .flat-button, .chat .message:nth-child(odd), .striped-list>:nth-child(odd):not(.separator), .song-list>ul>:nth-child(odd):not(.separator), .message-history>:nth-child(odd):not(.separator) {
      color: #eaeaea !important;
      background: #343434 !important;
@@ -28,7 +31,7 @@ fluteds 2021
  .conversation-view {
      border-top: 1px solid #545454 !important;
 }
-/* mention styling */
+/* mentions & actions */
  .chat .message.mention {
      background: #6e0504 !important;
      border-left: 5px solid #e4c864 !important;
@@ -38,15 +41,15 @@ fluteds 2021
      background-color: rgba(165,161,149,0.25) !important;
      border-left: 5px solid #c00000 !important;
 }
-/* text color overrides */
+/* text colours */
  .room-tab .description-wrap, .room-tab .room-info-link h3 {
      color: #eaeaea !important;
 }
-/* transparent overrides */
+/* transparent */
  .avatar-head {
      background-color: transparent !important;
 }
-/* popped white text */
+/* 3d white text */
  #playlist-display .text, .filter.btn, .room-tab .room-name, .song .title, .queue-message, .default-message, .tabbed-panel .separator .text, .message-view a, .tabbed-panel a, .tabbed-panel a:visited {
      color: #e7d690 !important;
      text-shadow: 0 1px 1px #000 !important;
@@ -56,7 +59,7 @@ fluteds 2021
      text-decoration: none !important;
      border-bottom: 0px dotted !important;
 }
-/* playlist / filters */
+/* playlist & filters */
  .panel-button {
      box-shadow: none !important;
      border: 1px solid #7b7b7b !important;
@@ -69,7 +72,7 @@ fluteds 2021
  .options-menu .nib, .chatsound.mention, #upload-button button, #playlist-display .playlist-queue-inset {
      filter: invert(100%) !important;
 }
-/* input bars */
+/* input bars eg text & search */
  .message-input-view, .floating-panel-bar, .floating-panel-header, .tabbed-panel .separator {
      box-shadow: none !important;
      border-top: 0px solid #545454 !important;
@@ -87,7 +90,7 @@ fluteds 2021
  .chat-bar .divider, #normal-mode .divider {
      display: none !important;
 }
-/* chat box inputs */
+/* chat & search box */
  #chat-form {
      left: 40px;
 }
