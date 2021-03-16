@@ -10,7 +10,7 @@
 
 ### **🔦 dark mode**
 
-enables a darkmode for the chat bar. 
+enables a darkmode for the chat and queue bars. (wip)
 
 ![image](https://user-images.githubusercontent.com/34608301/111235657-030d2780-85e9-11eb-83d1-779966c67d2f.png)
 
@@ -29,3 +29,7 @@ for **manual enabling** create a new bookmark with the following content:
 `javascript:(function(){$.getScript('https://raw.githubusercontent.com/fluteds/tttools/main/plugmention.js');})();`
 
 this method allows you to click the bookmark to when you want to enable it rather than automatically enabling it on the webpage loading. for **automatic enabling** use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and copy the [raw file contents](https://raw.githubusercontent.com/fluteds/tttools/main/plugmention.js) into a new script.
+
+<hr>
+
+📼 catch me on [**turntable.fm!**](https://ttstats.pinnacleofdestruction.net/user/6048fa3647b5e3001a8f7869)
