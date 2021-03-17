@@ -16,87 +16,87 @@ a copy of the MIT license can be found at /license
 */
 
 /* background */
- .tab-pane, #songs, .room-info-intro, .message-history, .chat .message:nth-child(even), .striped-list>:nth-child(even):not(.separator), .song-list>ul>:nth-child(even):not(.separator), .message-history>:nth-child(even):not(.separator) {
-     color: #eaeaea !important;
-     background: #3a3a3a !important;
+.tab-pane, #songs, .room-info-intro, .message-history, .chat .message:nth-child(even), .striped-list>:nth-child(even):not(.separator), .song-list>ul>:nth-child(even):not(.separator), .message-history>:nth-child(even):not(.separator) {
+    color: #eaeaea !important;
+    background: #3a3a3a !important;
 }
- .room-info-wrap, .flat-button, .chat .message:nth-child(odd), .striped-list>:nth-child(odd):not(.separator), .song-list>ul>:nth-child(odd):not(.separator), .message-history>:nth-child(odd):not(.separator) {
-     color: #eaeaea !important;
-     background: #343434 !important;
+.room-info-wrap, .flat-button, .chat .message:nth-child(odd), .striped-list>:nth-child(odd):not(.separator), .song-list>ul>:nth-child(odd):not(.separator), .message-history>:nth-child(odd):not(.separator) {
+    color: #eaeaea !important;
+    background: #343434 !important;
 }
 /* border colors */
- .flat-button, .message-view, .chat .message, .striped-list, .song-list .song, .room-info-intro, .room-info-wrap {
-     border-color: rgba(84,84,84,0) !important;
+.flat-button, .message-view, .chat .message, .striped-list, .song-list .song, .room-info-intro, .room-info-wrap {
+    border-color: rgba(84,84,84,0) !important;
 }
- .conversation-view {
-     border-top: 1px solid #545454 !important;
+.conversation-view {
+    border-top: 1px solid #545454 !important;
 }
 /* mentions & actions */
- .chat .message.mention {
-     background: #6e0504 !important;
-     border-left: 5px solid #e4c864 !important;
+.chat .message.mention {
+    background: #6e0504 !important;
+    border-left: 5px solid #e4c864 !important;
 }
- .chat .message.action {
-     color: rgb(237,232,232)!important;
-     background-color: rgba(165,161,149,0.25) !important;
-     border-left: 5px solid #c00000 !important;
+.chat .message.action {
+    color: rgb(237,232,232)!important;
+    background-color: rgba(165,161,149,0.25) !important;
+    border-left: 5px solid #c00000 !important;
 }
 /* text colours */
- .room-tab .description-wrap, .room-tab .room-info-link h3 {
-     color: #eaeaea !important;
+.room-tab .description-wrap, .room-tab .room-info-link h3 {
+    color: #eaeaea !important;
 }
 /* transparent */
- .avatar-head {
-     background-color: transparent !important;
+.avatar-head {
+    background-color: transparent !important;
 }
 /* 3d white text */
- #playlist-display .text, .filter.btn, .room-tab .room-name, .song .title, .queue-message, .default-message, .tabbed-panel .separator .text, .message-view a, .tabbed-panel a, .tabbed-panel a:visited {
-     color: #e7d690 !important;
-     text-shadow: 0 1px 1px #000 !important;
+#playlist-display .text, .filter.btn, .room-tab .room-name, .song .title, .queue-message, .default-message, .tabbed-panel .separator .text, .message-view a, .tabbed-panel a, .tabbed-panel a:visited {
+    color: #e7d690 !important;
+    text-shadow: 0 1px 1px #000 !important;
 }
 /* underline links */
- .message-view a, .tabbed-panel a, .tabbed-panel a:visited {
-     text-decoration: none !important;
-     border-bottom: 0px dotted !important;
+.message-view a, .tabbed-panel a, .tabbed-panel a:visited {
+    text-decoration: none !important;
+    border-bottom: 0px dotted !important;
 }
 /* playlist & filters */
- .panel-button {
-     box-shadow: none !important;
-     border: 1px solid #7b7b7b !important;
-     background: linear-gradient(to bottom, #4a4a4a 0, #3a3a3a 100%) !important;
+.panel-button {
+    box-shadow: none !important;
+    border: 1px solid #7b7b7b !important;
+    background: linear-gradient(to bottom, #4a4a4a 0, #3a3a3a 100%) !important;
 }
- .panel-button:not(:hover) {
-     opacity: 0.8 !important;
+.panel-button:not(:hover) {
+    opacity: 0.8 !important;
 }
 /* dark buttons */
- .options-menu .nib, .chatsound.mention, #upload-button button, #playlist-display .playlist-queue-inset {
-     filter: invert(100%) !important;
+.options-menu .nib, .chatsound.mention, #upload-button button, #playlist-display .playlist-queue-inset {
+    filter: invert(100%) !important;
 }
 /* input bars eg text & search */
- .message-input-view, .floating-panel-bar, .floating-panel-header, .tabbed-panel .separator {
-     box-shadow: none !important;
-     border-top: 0px solid #545454 !important;
-     border-bottom: 0px solid #353535 !important;
-     background: linear-gradient(to bottom, #3a3a3a, #353535) !important;
+.message-input-view, .floating-panel-bar, .floating-panel-header, .tabbed-panel .separator {
+    box-shadow: none !important;
+    border-top: 0px solid #545454 !important;
+    border-bottom: 0px solid #353535 !important;
+    background: linear-gradient(to bottom, #3a3a3a, #353535) !important;
 }
 /* input buttons eg upload */
- .chatsound-container {
-     background: transparent !important;
+.chatsound-container {
+    background: transparent !important;
 }
- #upload-button button, .chatsound-container, .chatsound.mention {
-     box-shadow: none !important;
-     border-color: transparent !important;
+#upload-button button, .chatsound-container, .chatsound.mention {
+    box-shadow: none !important;
+    border-color: transparent !important;
 }
- .chat-bar .divider, #normal-mode .divider {
-     display: none !important;
+.chat-bar .divider, #normal-mode .divider {
+    display: none !important;
 }
 /* chat & search box */
- #chat-form {
-     left: 40px;
+#chat-form {
+    left: 40px;
 }
- .message-input, #song-search-input {
-     border: none !important;
-     color: #ffffff !important;
-     background: #252525 !important;
-     box-shadow: inset 0 0 0 1px #545454, 0 1px 0 0 #545454 !important;
+.message-input, #song-search-input {
+    border: none !important;
+    color: #ffffff !important;
+    background: #252525 !important;
+    box-shadow: inset 0 0 0 1px #545454, 0 1px 0 0 #545454 !important;
 }

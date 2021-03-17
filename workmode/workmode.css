@@ -1,0 +1,14 @@
+#room-view {
+    display: none;
+}
+.screen-content {
+    display: none;
+} 
+body {
+ background-image: url("https://cdn.radiant.dj/rcs/bg/2k14hw.jpg");
+ background-color: rgb(204,204,204);  
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
