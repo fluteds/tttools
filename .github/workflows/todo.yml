@@ -1,0 +1,14 @@
+
+name: "Create TODO issues"
+on: ["push"]
+jobs:
+  build:
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: "TODO to Issue"
+        uses: "alstr/todo-to-issue-action@v2.4.1"
+        id: "todo"
+        with:
+          LABEL: "TODO"
+          COMMENT_MARKER: "/*"
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
