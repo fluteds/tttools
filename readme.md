@@ -12,6 +12,7 @@
 
 - [**contents**](#contents)
 - [**dark mode**](#dark-mode)
+- [**auto dark mode**](#auto-dark-mode)
 - [**work mode**](#work-mode)
 - [**plug.dj mentions for turntable.fm**](#plugdj-mentions-for-turntablefm)
 - [**tt.fm boost mode**](#ttfm-boost-mode)
@@ -31,9 +32,21 @@ enables a darkmode for turntable.fm
 ![Screenshot](https://user-images.githubusercontent.com/34608301/111393018-b6d8ea80-86af-11eb-87b3-b366abec39b2.png)
 _preview of dark mode._
 
+## **auto dark mode**
+
+dark mode but it automatically changes based on if your os is set to dark or light mode.
+
+**install auto dark mode**
+
+- copy the following code block into your css changer.
+  
+  `@import url("https://raw.githack.com/fluteds/tttools/main/darkmode/importautodarkmode.css");`
+
+- if you're a windows user, install [windows auto night mode.](https://github.com/Armin2208/Windows-Auto-Night-Mode/releases/tag/3.0) (note: windows currently doesn't support automatic light to dark) if your os supports automatic light to dark modes, ignore this.
+
 ## **work mode**
 
-removes all distracting assets from turntable such as avatars, staging, join dj buttons and video so you can get back to work and stop worrying about pressing join or watching avatars dance. the work mode addition pairs well with autowoot/autobop.
+removes all distracting assets from turntable such as avatars, vote buttons, staging, join dj buttons and video so you can get back to work and stop worrying about pressing join or watching avatars dance. the work mode addition pairs well with autowoot/autobop.
 
 **install work mode**
 
