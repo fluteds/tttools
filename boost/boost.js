@@ -1,3 +1,6 @@
+// TODO Enable awesome/meh buttons
+// Add background?
+
 function addStyleString(str) {
     var node = document.createElement('style');
     node.innerHTML = str;
@@ -5,7 +8,7 @@ function addStyleString(str) {
 }
 
 addStyleString('#room-view { display: none !important }');
-addStyleString('screen-content { display: none !important }');
+addStyleString('.screen-content { display: none !important }');
 
 setTimeout(function () {
     $('#video-only-dj').click(function () {
