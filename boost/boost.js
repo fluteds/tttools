@@ -9,6 +9,5 @@ addStyleString('screen-content { display: none !important }');
 
 setTimeout(function () {
     $('#video-only-dj').click(function () {
-        API.moderateForceSkip();
     });
 }, 2000);
