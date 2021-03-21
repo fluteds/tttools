@@ -3,8 +3,6 @@ dark mode for turntable.fm!
 dims all the brighter colours for darker colours.
 replaces event and mention colours to join the dark side.
 
-TODO add support for popups
-
 do not edit the following unless you know what you're doing.
 if you have any problems come find me on tt.fm/chillout_music <3 
 
@@ -15,24 +13,39 @@ a copy of the MIT license can be found at /license
 /* background */
 .tab-pane,
 #songs,
+.header-bar,
+.tab-item:not(.selected),
 .room-info-intro,
 .message-history,
+.song-list,
+.guest-list,
+#buddyList,
+.sliding-nav-pane,
+.conversations-list,
+.guestOptionsContainer,
+.guestOptionsContainer .options,
 .chat .message:nth-child(even),
-.striped-list>:nth-child(even):not(.separator),
-.song-list>ul>:nth-child(even):not(.separator),
-.message-history>:nth-child(even):not(.separator) {
+.guest-list > :nth-child(even):not(.separator),
+.striped-list > :nth-child(even):not(.separator),
+.song-list > ul > :nth-child(even):not(.separator),
+.message-history > :nth-child(even):not(.separator) {
     color: #eaeaea !important;
     background: #3a3a3a !important;
+    border: none;
 }
 
 .room-info-wrap,
 .flat-button,
+.guest-list,
+.guest .chat .message,
 .chat .message:nth-child(odd),
-.striped-list>:nth-child(odd):not(.separator),
-.song-list>ul>:nth-child(odd):not(.separator),
-.message-history>:nth-child(odd):not(.separator) {
+.guest-list > :nth-child(odd):not(.separator),
+.striped-list > :nth-child(odd):not(.separator),
+.song-list > ul > :nth-child(odd):not(.separator),
+.message-history > :nth-child(odd):not(.separator) {
     color: #eaeaea !important;
     background: #343434 !important;
+    border: none;
 }
 
 /* border colors */
@@ -48,6 +61,19 @@ a copy of the MIT license can be found at /license
 
 .conversation-view {
     border-top: 1px solid #545454 !important;
+}
+/* scroll */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #343434;
+}
+::-webkit-scrollbar-thumb {
+    background: #545454;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #e1bb22;
 }
 
 /* mentions & actions */
@@ -74,13 +100,14 @@ a copy of the MIT license can be found at /license
 }
 
 /* 3d white text */
-#playlist-display .text,
-.filter.btn,
-.room-tab .room-name,
-.song .title,
+.sliding-nav-pane-title,
+.tabbed-panel .separator .text,
 .queue-message,
 .default-message,
-.tabbed-panel .separator .text,
+.room-tab .room-name,
+.song .title,
+#playlist-display .text,
+.filter.btn,
 .message-view a,
 .tabbed-panel a,
 .tabbed-panel a:visited {
@@ -119,7 +146,9 @@ a copy of the MIT license can be found at /license
 .message-input-view,
 .floating-panel-bar,
 .floating-panel-header,
-.tabbed-panel .separator {
+.tabbed-panel .separator,
+.sliding-nav-pane-header,
+.sliding-nav-pane .separator {
     box-shadow: none !important;
     border-top: 0px solid #545454 !important;
     border-bottom: 0px solid #353535 !important;
@@ -154,4 +183,18 @@ a copy of the MIT license can be found at /license
     color: #ffffff !important;
     background: #252525 !important;
     box-shadow: inset 0 0 0 1px #545454, 0 1px 0 0 #545454 !important;
+}
+
+/* PMs */
+#buddyListHeader .options-menu .nib,
+#buddyListHeader .options-menu .options {
+    border-radius: 5px !important;
+}
+#buddyListHeader .options-menu .nib {
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+#buddyListHeader .options-menu .options {
+    top: -85px !important;
+    right: -5px !important;
 }
