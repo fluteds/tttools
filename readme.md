@@ -53,9 +53,8 @@ removes all distracting assets from turntable such as avatars, vote buttons, sta
 - copy the following line (without the bullet point) into your css changer of choice.
 - `@import url("https://raw.githack.com/fluteds/tttools/main/workmode/workmode.css");`
 
-![image](https://user-images.githubusercontent.com/34608301/111544915-24971c00-876d-11eb-862d-f437337318f6.png)
-_image provided is combined with my darkmode._
-<br> _note that the background is subject to change as i work on this._
+![image](https://cdn.discordapp.com/attachments/821424398342553670/823305995009785946/unknown.png)
+<br> _note that the background and look is subject to change as i work on this._
 
 ## **plug.dj mentions for turntable.fm**
 
