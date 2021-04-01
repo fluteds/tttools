@@ -12,11 +12,17 @@
 
 - [**contents**](#contents)
 - [**dark mode**](#dark-mode)
+    - [install dark mode](#install-dark-mode)
 - [**auto dark mode**](#auto-dark-mode)
+    - [install auto dark mode](#install-auto-dark-mode)
 - [**work mode**](#work-mode)
+    - [install work mode](#install-work-mode)
 - [**plug.dj mentions for turntable.fm**](#plugdj-mentions-for-turntablefm)
+    - [install plug.dj mentions for turntable.fm](#install-plugdj-mentions-for-turntablefm)
 - [**tt.fm boost mode**](#ttfm-boost-mode)
+    - [install tt.fm boost mode](#install-ttfm-boost-mode)
 - [**installing multiple modes**](#installing-multiple-modes)
+    - [installing both work and dark mode](#installing-both-work-and-dark-mode)
 - [**issues and contributing**](#issues-and-contributing)
 - [**note**](#note)
 
@@ -24,7 +30,7 @@
 
 enables a darkmode for turntable.fm
 
-**install dark mode**
+#### install dark mode
 
 - copy the following line (without the bullet point) into your css changer of choice.
 - [go here to install the bookmarklet to your bookmark bar](http://fluted.xyz/tttools/)
@@ -38,7 +44,7 @@ _preview of dark mode._
 
 dark mode but it automatically changes based on if your os is set to dark or light mode.
 
-**install auto dark mode**
+#### install auto dark mode
 
 - [go here to install the bookmarklet to your bookmark bar](http://fluted.xyz/tttools/)
 - click the bookmark to start the script (resets on refresh) or copy the following code block into your css changer.
@@ -51,7 +57,7 @@ dark mode but it automatically changes based on if your os is set to dark or lig
 
 removes all distracting assets from turntable such as avatars, vote buttons, staging, join dj buttons and video so you can get back to work and stop worrying about pressing join or watching avatars dance. the work mode addition pairs well with autowoot/autobop.
 
-**install work mode**
+#### install work mode
 
 - [go here to install the bookmarklet to your bookmark bar](http://fluted.xyz/tttools/)
 - click the bookmark to start the script (resets on refresh) or copy the following code block into your css changer.
@@ -65,9 +71,9 @@ removes all distracting assets from turntable such as avatars, vote buttons, sta
 
 a userscript that replaces turntable's mention sound with the mention sound from plug.dj incase you wanted that extra bit of nostalgia.
 
-**install plug.dj mentions for turntable.fm**
+#### install plug.dj mentions for turntable.fm
 
-- use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and copy the [raw file contents](https://raw.githubusercontent.com/fluteds/tttools/main/mentions/plugmention.js) into a new script
+- use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and copy the [raw file contents](https://raw.githubusercontent.com/fluteds/tttools/main/mentions/plugmention.js) into a new script.
 - or [go here to install the bookmarklet to your bookmark bar](http://fluted.xyz/tttools/) (for manual enabling.)
 - click the bookmark to start the script (resets on refresh) or copy the following code block into your css changer.
 
@@ -77,14 +83,15 @@ a userscript that replaces turntable's mention sound with the mention sound from
 
 a bookmarklet that improves the performance of tt.fm for slower browsers or those who like a cleaner approach to tt.
 
-**removes:**
+removes:
+
 - video
 - avatars
 - extra animation
 
-**install tt.fm boost mode**
+#### install tt.fm boost mode
 
-- [go here to install the bookmarklet to your bookmark bar](http://fluted.xyz/tttools/)
+- [go here to install the bookmarklet to your bookmark bar.](http://fluted.xyz/tttools/)
 - click the bookmark to start the script (resets on refresh.)
 - optional (for chrome users) install [h264ify](https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal) - boosts youtube's performance by a tonne.
 - boost! 🚀
@@ -93,7 +100,7 @@ a bookmarklet that improves the performance of tt.fm for slower browsers or thos
 
 ## **installing multiple modes**
 
-**installing both work and dark mode**
+#### installing both work and dark mode
 
 - copy and paste **both** of the following into a css changer.
 
