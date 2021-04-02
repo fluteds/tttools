@@ -1,4 +1,4 @@
-*/ hide header bars & search bar for ttstats
+/* hide header bars & search bar for ttstats */
 
 #header {
     display: none
