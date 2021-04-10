@@ -1,0 +1,11 @@
+/* hide header bars & search bar for ttstats
+ttstats.pinnacleofdestruction.net
+ttstats.info
+*/
+
+#header {
+    display: none
+}
+#searchResults {
+    display: none
+}
