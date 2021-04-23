@@ -1,5 +1,3 @@
-// TODO Enable awesome/meh buttons
-
 function addStyleString(str) {
     var node = document.createElement('style');
     node.innerHTML = str;

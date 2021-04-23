@@ -23,7 +23,7 @@ a copy of the MIT license can be found at /license
 /* background */
 body {
     width: auto;
-    background-image: url("/assets/workmode.png");
+    background-image: url("https://raw.githubusercontent.com/fluteds/tttools/main/assets/workmode.png");
     background-color: rgb(204, 204, 204);
     background-position: center;
     background-repeat: no-repeat;
