@@ -6,7 +6,17 @@
   <br> and enhancements for tt.fm</br>
 </p>
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/fluteds/tttools/graphs/commit-activity) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+<p align="center">
+<a alt="Commit activity for ttTools" href="https://GitHub.com/fluteds/tttools/graphs/commit-activity">
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-gold.svg?style=flat-square"/>
+  </a>
+  <a alt="How to make a pull request" href="http://makeapullrequest.com">
+  <img src="https://img.shields.io/badge/PRs-welcome-gold.svg?style=flat-square"/>
+  </a>
+  <a alt="MIT License" href="https://lbesson.mit-license.org/">
+<img src="https://img.shields.io/badge/License-MIT-gold.svg?style=flat-square"/>
+</a>
+<img alt="Stars" src="https://img.shields.io/github/stars/fluteds?color=gold&style=flat-square">
 
 ## **contents**
 
