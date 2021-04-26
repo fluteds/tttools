@@ -15,68 +15,71 @@
   - [auto dark mode](#auto-dark-mode)
   - [work mode](#work-mode)
 - [**addons**](#addons)
-  - [custom mentions for turntable.fm](#custom-mentions-for-turntablefm)
-  - [tt.fm boost mode](#ttfm-boost-mode)
+  - [custom mentions](#custom-mentions)
+  - [boost mode](#boost-mode)
+  - [hide ttstats](#hide-ttstats)
 - [**issues and contributing**](#issues-and-contributing)
+- [**ttscripts**](#ttscripts)
 
 # **themes**
+
+show off your flair with these themes
+<br>more themes can be found in [ttScripts](https://fluted.xyz/ttscripts)!
 
 ## dark mode
 
 enables a darkmode for turntable.fm
 
-**install**
+**installing**
 
-- copy the following line (without the bullet point) into your css changer of choice.
-- `@import url("https://raw.githack.com/fluteds/tttools/main/darkmode/darkmode.css");`
+- install [stylus for firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [opera](https://addons.opera.com/en-gb/extensions/details/stylus/) or [cascadea for safari](https://cascadea.app/)
+- open the raw file
+- you can also manually enable with a [bookmarklet](http://fluted.xyz/tttools/)
 
 ![Screenshot](https://user-images.githubusercontent.com/34608301/111393018-b6d8ea80-86af-11eb-87b3-b366abec39b2.png)
-_preview of dark mode._
 
 ## auto dark mode
 
 dark mode but it automatically changes based on if your os is set to dark or light mode.
 
-**install**
-
-- copy the following code block into your css changer.
-
-  `@import url("https://raw.githack.com/fluteds/tttools/main/darkmode/importautodarkmode.css");`
+**installing**
 
 - if you're a windows user, install [windows auto night mode.](https://github.com/Armin2208/Windows-Auto-Night-Mode/releases/tag/3.0) (note: windows currently doesn't support automatic light to dark) if your os supports automatic light to dark modes, ignore this.
+- install [stylus for firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [opera](https://addons.opera.com/en-gb/extensions/details/stylus/) or [cascadea for safari](https://cascadea.app/)
+- open the raw file
+- you can also manually enable with a [bookmarklet](http://fluted.xyz/tttools/)
 
 ## work mode
 
 removes all distracting assets from turntable such as avatars, vote buttons, staging, join dj buttons and video so you can get back to work and stop worrying about pressing join or watching avatars dance. the work mode addition pairs well with autowoot/autobop.
 
-**install**
+**installing**
 
-- copy the following line (without the bullet point) into your css changer of choice.
-- `@import url("https://raw.githack.com/fluteds/tttools/main/workmode/workmode.css");`
+- install [stylus for firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [opera](https://addons.opera.com/en-gb/extensions/details/stylus/) or [cascadea for safari](https://cascadea.app/)
+- open the raw file
+- you can also manually enable with a [bookmarklet](http://fluted.xyz/tttools/)
 
 ![image](https://cdn.discordapp.com/attachments/821424398342553670/823305995009785946/unknown.png)
-<br> _note that the background and look is subject to change as i work on this._
 
 # **addons**
 
-## custom mentions for turntable.fm
+addons for turntable, includes things such as custom mentions and individual additions that doesn't completely change the appearance
+<br>more addons can be found in [ttScripts](https://fluted.xyz/ttscripts)!
+
+## custom mentions
 
 a userscript that replaces turntable's mention sound with the mention sound from plug.dj incase you wanted that extra bit of nostalgia.
 
-**install**
+**installing**
 
-- for automatic enabling use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and copy the [raw file contents](https://raw.githubusercontent.com/fluteds/tttools/main/mentions/plugmention.js) into a new script.
+- for automatic enabling use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and open the raw file to install
+- you can also manually enable with a [bookmarklet](http://fluted.xyz/tttools/)
 
-- for manual enabling create a new bookmark with the following code block below or **drag** the link to your bookmark bar.
-- if you've opted for the bookmark, click the bookmark to start the script (resets on refresh.)
+to use your own mention sounds, you must have a direct link to your mp3 file. paste the link next inbetween the `<''>` in `UI_SOUND_MENTION = ''`
 
-[go here to install the bookmarklet](http://fluted.xyz/tttools/)
+## boost mode
 
-`javascript:(function(){$.getScript('https://raw.githack.com/fluteds/tttools/main/mentions/plugmention.js');})();`
-
-## tt.fm boost mode
-
-a bookmarklet that improves the performance of tt.fm for slower browsers or those who like a cleaner approach to tt.
+a tampermonkey script & bookmarklet that improves the performance of turntable for slower browsers or those who like a cleaner approach to tt.
 
 **removes:**
 
@@ -84,17 +87,34 @@ a bookmarklet that improves the performance of tt.fm for slower browsers or thos
 - avatars
 - extra animation
 
-**install**
+**installing**
 
-- drag the link below `fluted's tt.fm boost` to your bookmark bar.
-- click the bookmark to start the script (resets on refresh.)
-- optional (for chrome users) install [h264ify](https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal) - boosts youtube's performance by a tonne.
-- boost! 🚀
+- for automatic enabling use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and open the raw file to install
+- you can also manually enable with a [bookmarklet](http://fluted.xyz/tttools/)
+- optional (for chrome users) install [h264ify](https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal) - boosts youtube's performance
 
-[go here to install the bookmarklet](http://fluted.xyz/tttools/)
+## hide ttstats
 
-`javascript:(function(){$.getScript('https://raw.githack.com/fluteds/tttools/main/boost/boost.js\');})();`
+an addon that hides the ttStats header and search feature, useful if you don't want to look at leaderboards and other users
+
+**removes**
+
+- ttstats header
+- search bar
+- hides features like points, woot, grab and meh
 
 # **issues and contributing**
 
-if you have any problems, catch me on [**turntable.fm**](https://ttstats.pinnacleofdestruction.net/user/6048fa3647b5e3001a8f7869), [**open an issue**](https://github.com/fluteds/tttools/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) or [**pull request**](http://makeapullrequest.com) (if you're techy like that!)
+if you have any problems
+
+- [**turntable.fm profile**](https://ttstats.pinnacleofdestruction.net/user/6048fa3647b5e3001a8f7869) - see if i'm online!
+- [**open an issue**](https://github.com/fluteds/tttools/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+- [**pull request**](http://makeapullrequest.com)
+
+**about pull requests**
+
+create a `patch` request branch to commit against as `dev` is no longer kept up to date. i merge my changes against main using a `feature\patch` branch
+
+# **ttscripts**
+
+[check out ttScripts as well](https://fluted.xyz/ttscripts) for more community contributed themes and addons
