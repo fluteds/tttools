@@ -117,15 +117,14 @@ an addon that hides the ttStats header and search feature, useful if you don't w
 
 # **issues and contributing**
 
-if you have any problems
+if you have any problems or want to suggest something:
 
-- [**turntable.fm profile**](https://ttstats.pinnacleofdestruction.net/user/6048fa3647b5e3001a8f7869) - see if i'm online!
-- [**open an issue**](https://github.com/fluteds/tttools/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
-- [**pull request**](http://makeapullrequest.com)
+- [open an issue](https://github.com/fluteds/tttools/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+- [fork and open a pull request](http://makeapullrequest.com)
+- [turntable.fm profile](https://ttstats.pinnacleofdestruction.net/user/6048fa3647b5e3001a8f7869) - ping me! see if i'm online
 
-**about pull requests**
-
-create a `patch` request branch to commit against as `dev` is no longer kept up to date. i merge my changes against main using a `feature\patch` branch
+**pull requests**
+<br>create a `patch` branch to commit against as `dev` is no longer kept up to date. i merge my changes against main using a `feature\patch` branch so separate things can be kept isolated.
 
 # **ttscripts**
 
