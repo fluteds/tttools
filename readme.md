@@ -36,7 +36,6 @@
 # **themes**
 
 show off your flair with these themes
-<br>more themes can be found in [ttScripts](https://fluted.xyz/ttscripts)!
 
 ## dark mode
 
@@ -76,7 +75,6 @@ removes all distracting assets from turntable such as avatars, vote buttons, sta
 # **addons**
 
 addons for turntable, includes things such as custom mentions and individual additions that doesn't completely change the appearance
-<br>more addons can be found in [ttScripts](https://fluted.xyz/ttscripts)!
 
 ## custom mentions
 
