@@ -45,7 +45,7 @@ enables a darkmode for turntable.fm
 
 - install [stylus for firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [opera](https://addons.opera.com/en-gb/extensions/details/stylus/) or [cascadea for safari](https://cascadea.app/)
 - open the raw file
-- you can also manually enable with a [bookmarklet](http://fluted.xyz/tttools/)
+- you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
 
 ![Screenshot](https://user-images.githubusercontent.com/34608301/111393018-b6d8ea80-86af-11eb-87b3-b366abec39b2.png)
 
@@ -58,7 +58,7 @@ dark mode but it automatically changes based on if your os is set to dark or lig
 - if you're a windows user, install [windows auto night mode.](https://github.com/Armin2208/Windows-Auto-Night-Mode/releases/tag/3.0) (note: windows currently doesn't support automatic light to dark) if your os supports automatic light to dark modes, ignore this.
 - install [stylus for firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [opera](https://addons.opera.com/en-gb/extensions/details/stylus/) or [cascadea for safari](https://cascadea.app/)
 - open the raw file
-- you can also manually enable with a [bookmarklet](http://fluted.xyz/tttools/)
+- you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
 
 ## work mode
 
@@ -68,7 +68,7 @@ removes all distracting assets from turntable such as avatars, vote buttons, sta
 
 - install [stylus for firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [opera](https://addons.opera.com/en-gb/extensions/details/stylus/) or [cascadea for safari](https://cascadea.app/)
 - open the raw file
-- you can also manually enable with a [bookmarklet](http://fluted.xyz/tttools/)
+- you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
 
 ![image](https://cdn.discordapp.com/attachments/821424398342553670/823305995009785946/unknown.png)
 
@@ -83,7 +83,7 @@ a userscript that replaces turntable's mention sound with the mention sound from
 **installing**
 
 - for automatic enabling use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and open the raw file to install
-- you can also manually enable with a [bookmarklet](http://fluted.xyz/tttools/)
+- you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
 
 to use your own mention sounds, you must have a direct link to your mp3 file. paste the link next inbetween the `<''>` in `UI_SOUND_MENTION = ''`
 
@@ -100,7 +100,7 @@ a tampermonkey script & bookmarklet that improves the performance of turntable f
 **installing**
 
 - for automatic enabling use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and open the raw file to install
-- you can also manually enable with a [bookmarklet](http://fluted.xyz/tttools/)
+- you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
 - optional (for chrome users) install [h264ify](https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal) - boosts youtube's performance
 
 ## hide ttstats
