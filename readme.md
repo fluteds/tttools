@@ -20,28 +20,28 @@
     </a>
 </p>
 
-## **contents**
+## **Contents**
 
-- [**themes**](#themes)
-  - [dark mode](#dark-mode)
-  - [auto dark mode](#auto-dark-mode)
-  - [work mode](#work-mode)
-- [**addons**](#addons)
-  - [custom mentions](#custom-mentions)
-  - [boost mode](#boost-mode)
-  - [hide ttstats](#hide-ttstats)
-- [**issues and contributing**](#issues-and-contributing)
-- [**ttscripts**](#ttscripts)
+- [**Themes**](#themes)
+  - [Dark Mode](#dark-mode)
+  - [Auto Dark Mode](#auto-dark-mode)
+  - [Work Mode](#work-mode)
+- [**Addons**](#addons)
+  - [Custom Mentions](#custom-mentions)
+  - [Boost Mode](#boost-mode)
+  - [Hide TTstats](#hide-ttstats)
+- [**Issues and Contributing**](#issues-and-contributing)
+- [**ttScripts**](#ttscripts)
 
-# **themes**
+# **Themes**
 
-show off your flair with these themes
+Show off your flair with these themes
 
-## dark mode
+## Dark Mode
 
-enables a darkmode for turntable.fm
+Enables a darkmode for turntable.fm
 
-**installing**
+**Installing**
 
 - install [stylus for firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [opera](https://addons.opera.com/en-gb/extensions/details/stylus/) or [cascadea for safari](https://cascadea.app/)
 - open the raw file
@@ -49,22 +49,22 @@ enables a darkmode for turntable.fm
 
 ![Screenshot](https://user-images.githubusercontent.com/34608301/111393018-b6d8ea80-86af-11eb-87b3-b366abec39b2.png)
 
-## auto dark mode
+## Auto Dark Mode
 
 dark mode but it automatically changes based on if your os is set to dark or light mode.
 
-**installing**
+**Installing**
 
 - if you're a windows user, install [windows auto night mode.](https://github.com/Armin2208/Windows-Auto-Night-Mode/releases/tag/3.0) (note: windows currently doesn't support automatic light to dark) if your os supports automatic light to dark modes, ignore this.
 - install [stylus for firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [opera](https://addons.opera.com/en-gb/extensions/details/stylus/) or [cascadea for safari](https://cascadea.app/)
 - open the raw file
 - you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
 
-## work mode
+## Work Mode
 
-removes all distracting assets from turntable such as avatars, vote buttons, staging, join dj buttons and video so you can get back to work and stop worrying about pressing join or watching avatars dance. the work mode addition pairs well with autowoot/autobop.
+Removes all distracting assets from turntable such as avatars, vote buttons, staging, join dj buttons and video so you can get back to work and stop worrying about pressing join or watching avatars dance. the work mode addition pairs well with autowoot/autobop.
 
-**installing**
+**Installing**
 
 - install [stylus for firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [opera](https://addons.opera.com/en-gb/extensions/details/stylus/) or [cascadea for safari](https://cascadea.app/)
 - open the raw file
@@ -72,58 +72,58 @@ removes all distracting assets from turntable such as avatars, vote buttons, sta
 
 ![image](https://cdn.discordapp.com/attachments/821424398342553670/823305995009785946/unknown.png)
 
-# **addons**
+# **Addons**
 
-addons for turntable, includes things such as custom mentions and individual additions that doesn't completely change the appearance
+Addons for turntable, includes things such as custom mentions and individual additions that doesn't completely change the appearance
 
-## custom mentions
+## Custom Mentions
 
-a userscript that replaces turntable's mention sound with the mention sound from plug.dj incase you wanted that extra bit of nostalgia.
+A userscript that replaces turntable's mention sound with the mention sound from plug.dj incase you wanted that extra bit of nostalgia.
 
-**installing**
+**Installing**
 
 - for automatic enabling use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and open the raw file to install
 - you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
 
 to use your own mention sounds, you must have a direct link to your mp3 file. paste the link next inbetween the `<''>` in `UI_SOUND_MENTION = ''`
 
-## boost mode
+## Boost Mode
 
-a tampermonkey script & bookmarklet that improves the performance of turntable for slower browsers or those who like a cleaner approach to tt.
+A tampermonkey script & bookmarklet that improves the performance of turntable for slower browsers or those who like a cleaner approach to tt.
 
-**removes:**
+**Removes:**
 
 - video
 - avatars
 - extra animation
 
-**installing**
+**Installing**
 
 - for automatic enabling use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and open the raw file to install
 - you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
 - optional (for chrome users) install [h264ify](https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal) - boosts youtube's performance
 
-## hide ttstats
+## Hide TTstats
 
-an addon that hides the ttStats header and search feature, useful if you don't want to look at leaderboards and other users
+An addon that hides the ttStats header and search feature, useful if you don't want to look at leaderboards and other users
 
-**removes**
+**rRemoves**
 
 - ttstats header
 - search bar
 - hides features like points, woot, grab and meh
 
-# **issues and contributing**
+# **Issues and Contributing**
 
-if you have any problems or want to suggest something:
+If you have any problems or want to suggest something:
 
 - [open an issue](https://github.com/fluteds/tttools/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 - [fork and open a pull request](http://makeapullrequest.com)
 - [turntable.fm profile](https://ttstats.pinnacleofdestruction.net/user/6048fa3647b5e3001a8f7869) - ping me! see if i'm online
 
-**pull requests**
+**Pull Requests**
 <br>create a `patch` branch to commit against as `dev` is no longer kept up to date. i merge my changes against main using a `feature\patch` branch so separate things can be kept isolated.
 
-# **ttscripts**
+# **ttScripts**
 
 [check out ttScripts as well](https://fluted.xyz/ttscripts) for more community contributed themes and addons
