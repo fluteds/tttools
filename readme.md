@@ -29,7 +29,7 @@
 - [**Addons**](#addons)
   - [Custom Mentions](#custom-mentions)
   - [Boost Mode](#boost-mode)
-  - [Hide TTstats](#hide-ttstats)
+  - [Hide TTStats](#hide-ttstats)
 - [**Issues and Contributing**](#issues-and-contributing)
 - [**ttScripts**](#ttscripts)
 
@@ -62,7 +62,7 @@ dark mode but it automatically changes based on if your os is set to dark or lig
 
 ## Work Mode
 
-Removes all distracting assets from turntable such as avatars, vote buttons, staging, join dj buttons and video so you can get back to work and stop worrying about pressing join or watching avatars dance. the work mode addition pairs well with autowoot/autobop.
+Removes all distracting assets from turntable such as avatars, vote buttons, staging, join dj buttons and video so you can get back to work and stop worrying about pressing join or watching avatars dance. The work mode addition pairs well with autowoot/autobop and auto join.
 
 **Installing**
 
@@ -85,11 +85,11 @@ A userscript that replaces turntable's mention sound with the mention sound from
 - for automatic enabling use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and open the raw file to install
 - you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
 
-to use your own mention sounds, you must have a direct link to your mp3 file. paste the link next inbetween the `<''>` in `UI_SOUND_MENTION = ''`
+To use your own mention sounds, you **must** have a direct link to your mp3/host file. paste the direct `.mp3` link next inbetween the `<''>` in `UI_SOUND_MENTION = ''`
 
 ## Boost Mode
 
-A tampermonkey script & bookmarklet that improves the performance of turntable for slower browsers or those who like a cleaner approach to tt.
+A tampermonkey script & bookmarklet that improves the performance of turntable for slower browsers or those who like a cleaner approach to turntable.
 
 **Removes:**
 
@@ -103,11 +103,11 @@ A tampermonkey script & bookmarklet that improves the performance of turntable f
 - you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
 - optional (for chrome users) install [h264ify](https://chrome.google.com/webstore/detail/h264ify/aleakchihdccplidncghkekgioiakgal) - boosts youtube's performance
 
-## Hide TTstats
+## Hide TTStats
 
 An addon that hides the ttStats header and search feature, useful if you don't want to look at leaderboards and other users
 
-**rRemoves**
+**Removes**
 
 - ttstats header
 - search bar
@@ -122,7 +122,8 @@ If you have any problems or want to suggest something:
 - [turntable.fm profile](https://ttstats.pinnacleofdestruction.net/user/6048fa3647b5e3001a8f7869) - ping me! see if i'm online
 
 **Pull Requests**
-<br>create a `patch` branch to commit against as `dev` is no longer kept up to date. i merge my changes against main using a `feature\patch` branch so separate things can be kept isolated.
+
+Create a `patch` branch to commit against as `dev` is no longer kept up to date. I merge my changes against main using a `feature\patch` branch so separate things can be kept isolated.
 
 # **ttScripts**
 
