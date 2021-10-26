@@ -116,6 +116,7 @@ An addon that hides the ttStats header and search feature, useful if you don't w
 
 If you have any problems or want to suggest something:
 
+- [check the wiki on how to add your own themes/addons](https://github.com/fluteds/tttools/wiki)
 - [open an issue](https://github.com/fluteds/tttools/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 - [fork and open a pull request](http://makeapullrequest.com)
 - [turntable.fm profile](https://ttstats.pinnacleofdestruction.net/user/6048fa3647b5e3001a8f7869) - ping me! see if i'm online
