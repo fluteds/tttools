@@ -31,7 +31,6 @@
   - [Boost Mode](#boost-mode)
   - [Hide TTStats](#hide-ttstats)
 - [**Issues and Contributing**](#issues-and-contributing)
-- [**ttScripts**](#ttscripts)
 
 # **Themes**
 
@@ -124,7 +123,3 @@ If you have any problems or want to suggest something:
 **Pull Requests**
 
 Create a `patch` branch to commit against as `dev` is no longer kept up to date. I merge my changes against main using a `feature\patch` branch so separate things can be kept isolated.
-
-# **ttScripts**
-
-[check out ttScripts as well](https://fluted.xyz/ttscripts) for more community contributed themes and addons
