@@ -3,7 +3,7 @@
     <br>
     <br><b>t</b>urn<b>t</b>able <b>tools</b>
     <br>a collection of tools
-    <br> and enhancements for tt.fm</br>
+    <br> and enhancements for turntable.fm</br>
 </p>
 
 <p align="center">
