@@ -29,6 +29,7 @@
 - [**Addons**](#addons)
   - [Custom Mentions](#custom-mentions)
   - [Custom Mention / Action Colours](#custom-mention--action-colours)
+  - [Resize Chat and Font](#resize-chat-and-font)
   - [Boost Mode](#boost-mode)
   - [Hide TTStats](#hide-ttstats)
 - [**Issues and Contributing**](#issues-and-contributing)
@@ -97,6 +98,14 @@ A css snippet that changes the mention highlight and action colours to your liki
 - open the raw file
 - or use the custom css snippet feature in turnStyles
 - you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
+
+## Resize Chat and Font
+
+A userscript and css snippet that resizes the chat and changes the font size.
+
+- for automatic enabling use [tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and open the raw file to install
+- or use the custom css snippet feature in turnStyles, which works just like the userscript
+- you can also manually enable resizing with a [bookmarklet](https://fluteds.github.io/tttools/)
 
 ## Boost Mode
 
