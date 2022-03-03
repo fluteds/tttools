@@ -28,6 +28,7 @@
   - [Work Mode](#work-mode)
 - [**Addons**](#addons)
   - [Custom Mentions](#custom-mentions)
+  - [Custom Mention / Action Colours](#custom-mention--action-colours)
   - [Boost Mode](#boost-mode)
   - [Hide TTStats](#hide-ttstats)
 - [**Issues and Contributing**](#issues-and-contributing)
@@ -73,7 +74,7 @@ Removes all distracting assets from turntable such as avatars, vote buttons, sta
 
 # **Addons**
 
-Addons for turntable, includes things such as custom mentions and individual additions that doesn't completely change the appearance
+Addons for turntable, includes js and css snippets such as custom mentions and individual additions that doesn't completely change the appearance of turntable.fm
 
 ## Custom Mentions
 
@@ -85,6 +86,17 @@ A userscript that replaces turntable's mention sound with the mention sound from
 - you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
 
 To use your own mention sounds, you **must** have a direct link to your mp3/host file. paste the direct `.mp3` link next inbetween the `<''>` in `UI_SOUND_MENTION = ''`
+
+## Custom Mention / Action Colours
+
+A css snippet that changes the mention highlight and action colours to your liking.
+
+**Installing**
+
+- install [stylus for firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [opera](https://addons.opera.com/en-gb/extensions/details/stylus/) or [cascadea for safari](https://cascadea.app/)
+- open the raw file
+- or use the custom css snippet feature in turnStyles
+- you can also manually enable with a [bookmarklet](https://fluteds.github.io/tttools/)
 
 ## Boost Mode
 
@@ -123,4 +135,4 @@ If you have any problems or want to suggest something:
 
 **Pull Requests**
 
-Create a `patch` branch to commit against as `dev` is no longer kept up to date. I merge my changes against main using a `feature\patch` branch so separate things can be kept isolated.
+Create a `patch` branch to commit against as `dev` is no longer kept up to date. I merge my changes against main using a `feature` branch so separate things can be kept isolated.
