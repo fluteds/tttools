@@ -1,0 +1,31 @@
+:root {
+    --panel-width: 300px; /* Width of the panel */
+    --font-size: 12.5px; /* Set font size */
+  }
+  
+/* Set Header Bar Width */
+  .chrome .header-bar {
+    right: var(--panel-width);    
+  }
+/* Set Panel Width */
+  .chrome .right-panel {
+    width: var(--panel-width);
+  }
+  
+  .room-viewport {
+    right: var(--panel-width);  
+  }
+
+  .chat .message {
+    font-size: var(--font-size);
+    line-height: 1.5;
+  }
+  
+  .message-input {
+    font-size: var(--font-size);
+  }
+  
+/* Resize Chat Images */
+  .chat-image-container .chat-image {
+    width: auto;
+  }
