@@ -32,6 +32,7 @@
   - [Resize Chat and Font](#resize-chat-and-font)
   - [Boost Mode](#boost-mode)
   - [Hide TTStats](#hide-ttstats)
+  - [Hide Thompsn](#hide-thompsn)
 - [**Issues and Contributing**](#issues-and-contributing)
 
 # **Themes**
@@ -131,6 +132,15 @@ An addon that hides the ttStats header and search feature, useful if you don't w
 - ttstats header
 - search bar
 - hides features like points, woot, grab and meh
+
+## Hide Thompsn
+
+An addon that hides the search feature on thompsn
+
+**Removes**
+
+- search bar
+- links to leaderboards
 
 # **Issues and Contributing**
 

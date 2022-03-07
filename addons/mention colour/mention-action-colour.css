@@ -1,12 +1,13 @@
 /* Mentions */
 .chat .message.mention {
-    background: #6e0504 !important;
-    border-left: 5px solid #e4c864 !important;
+    background: #401314!important;
+    border-left: 5px solid #ffce1f !important;
+    border-right: 0px solid; /* Disable turnStyles border */
 }
 
 /* Actions (User played/was booted etc) */
 .chat .message.action {
     color: rgb(237, 232, 232) !important;
     background-color: rgba(165, 161, 149, 0.25) !important;
-    border-left: 5px solid #c00000 !important;
+    border-left: 5px solid #401314 !important;
 }

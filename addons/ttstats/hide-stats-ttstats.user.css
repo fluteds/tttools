@@ -1,8 +1,8 @@
-/* hide header bars & search bar for ttstats */
-
+/* Hide header/search bar on ttStats */
 #header {
     display: none
 }
+
 #searchResults {
     display: none
 }

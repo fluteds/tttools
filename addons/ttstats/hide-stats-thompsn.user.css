@@ -1,0 +1,6 @@
+/* Hide search bars/links 
+to leaderboard on thompsn */
+.inner a,
+#search {
+    display: none
+}
