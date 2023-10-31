@@ -7,6 +7,7 @@
 // @downloadURL  https://raw.githack.com/fluteds/tttools/main/addons/custom mentions/custom-mention.user.js
 // @icon         https://s3.amazonaws.com/assets.turntable.fm/images/index/logo.png
 // @match        https://turntable.fm/*
+// @match        https://deepcut.fm/*
 // @grant        GM_registerMenuCommand
 // ==/UserScript==
 

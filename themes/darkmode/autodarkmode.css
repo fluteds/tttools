@@ -1,13 +1,6 @@
-/* 
-auto dark mode for turntable.fm!
-dims all the brighter colours for darker colours.
-replaces event and mention colours to join the dark side.
+/* Auto dark mode © Fluteds */
 
-© fluteds 
-
-*/
-
-/* enables dark mode when OS is set to dark mode */
+/* enables dark mode when OS is set to dark */
 @media (prefers-color-scheme: dark) {
 
     /* background */
