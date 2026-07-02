@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Replace turntable.fm mentions with custom mention noises.
 // @author       Fluted
-// @downloadURL  https://raw.githack.com/fluteds/tttools/main/addons/custom mentions/custom-mention.user.js
+// @downloadURL  https://raw.githack.com/fluteds/tttools/main/addons/custom%20mentions/custom-mention.user.js
 // @icon         https://s3.amazonaws.com/assets.turntable.fm/images/index/logo.png
 // @match        https://turntable.fm/*
 // @match        https://deepcut.fm/*

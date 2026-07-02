@@ -116,7 +116,7 @@
   });
 
   /* Font size */
-  document.querySelector("insert-font-button-container")?.remove();
+  document.querySelector(".insert-font-button-container")?.remove();
   const container = document.createElement("li");
   container.className = "insert-font-button-container";
 
@@ -131,7 +131,7 @@
   const chat = document.querySelector('.chat');
   const input = document.querySelector('.message-input');
   function resizeFont(by) {
-    const current = parseInt(chat.style.fontSize || window.getDefaultComputedStyle(chat).fontSize, 10);
+    const current = parseInt(chat.style.fontSize || window.getComputedStyle(chat).fontSize, 10);
     chat.style.fontSize = `${current + by}px`;
     input.style.fontSize = `${current + by}px`;
   }
